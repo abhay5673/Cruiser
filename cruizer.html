@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>CRUIZER</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css" media="screen,projection">
+  <link type="text/css" rel="stylesheet" href="main.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <style>
+    .section-search {
+      padding: 5px !important;
+      font-size: 20px;
+      width: 100%;
+      border: solid 3px grey;
+    }
+
+    .section-followon .fa-4x {
+      margin-left: 5px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="navbar-fixed">
+    <nav class="blue-grey darken-4">
+      <div class="container">
+        <div class="nav-wrapper">
+          <a href="#home" class="brand-logo" class="mylink">CRUIZER</a>
+          <!--<a href="#" data-activates="mobile-nav" class="button-collapse">
+            <i class="material-icons">menu</i>
+          </a>  -->
+
+
+          <ul class="right hide-on-med-and-down">
+            <li>
+              <a href="#home">Home</a>
+            </li>
+            <li>
+              <a href="#search">Search</a>
+            </li>
+            <li>
+              <a href="#Popular">PopularPlaces</a>
+            </li>
+            <li>
+              <a href="#Gallery">Gallery</a>
+            </li>
+            <li>
+              <a href="#Contact">Contact</a>
+            </li>
+          </ul>
+
+        </div>
+      </div>
+    </nav>
+  </div>
+  <!--<ul class="side-nav" id="mobile-nav">
+    <li>
+      <a href="#home">Home</a>
+    </li>
+    <li>
+      <a href="#search">Search</a>
+    </li>
+    <li>
+      <a href="#Popular">PopularPlaces</a>
+    </li>
+    <li>
+      <a href="#gallery">Gallery</a>
+    </li>
+    <li>
+      <a href="#contact">Contact</a>
+    </li>
+  </ul> -->
+
+
+
+  <!-- section for carousel -->
+  <section class="section1">
+    <div class="carousel carousel-slider" data-indicators="true">
+      <a href="#one" class="carousel-item">
+        <img src="https://images.pexels.com/photos/258154/pexels-photo-258154.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940.jpg"
+          alt="image">
+      </a>
+      <a href="#two" class="carousel-item">
+        <img src="https://images.pexels.com/photos/189296/pexels-photo-189296.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940.jpg"
+          alt="image">
+      </a>
+      <a href="#three" class="carousel-item">
+        <img src="https://images.pexels.com/photos/290544/pexels-photo-290544.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940.jpg"
+          alt="">
+      </a>
+      <a href="#four" class="carousel-item">
+        <img src="https://images.pexels.com/photos/1174732/pexels-photo-1174732.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940jpg"
+          alt="">
+      </a>
+      <a href="#five" class="carousel-item">
+        <img src="https://images.pexels.com/photos/358561/pexels-photo-358561.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940.jpg"
+          alt="">
+      </a>
+
+    </div>
+
+  </section>
+
+  <section class="section2 center  teal darken-3 section-search">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h4> Search Destinations</h4>
+          <div class="input-field">
+            <input class="white grey-text" class="autocomplete" id="autocomplete-input" type="text" class=" placeholder=" Germany, Italy,
+              etc.. ""> </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- section 3 for the cards -->
+  <section class="section section-icons grey-text center">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">room</i>
+            <h4>Pick where</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam, commodi.</p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">store</i>
+            <h4>The Store</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, animi.
+            </p>
+          </div>
+        </div>
+        <div class="col s12 m4">
+          <div class="card-panel">
+            <i class="material-icons large teal-text">account_balance</i>
+            <h4>Accounts</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est, animi.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </section>
+
+  <!-- section 4 -->
+  <section class="section section-popular">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <div class="card">
+            <div class="card-image">
+
+              <img src="https://images.unsplash.com/photo-1489516408517-0c0a15662682?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5e014c847c27182aa4b644c4e2ee6682&auto=format&fit=crop&w=1567&q=80.jpg"
+                alt="">
+              <p class="card-title">Dubai</p>
+            </div>
+
+            <div class="card-content">
+              <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia perspiciatis beatae dolores amet quisquam
+                nemo sunt.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.pexels.com/photos/602607/pexels-photo-602607.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+            <p class="card-title">India</p>
+          </div>
+          <div class="card-content">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque quas praesentium laborum laudantium facilis optio.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12  ">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.pexels.com/photos/739407/pexels-photo-739407.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+            <p class="card-title">France</p>
+          </div>
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. At esse quia tempore ullam sunt molestiae porro! Autem,
+              fuga.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col s12">
+        <div class="card">
+          <div class="card-image">
+            <img src="https://images.pexels.com/photos/416998/pexels-photo-416998.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940.jpg"
+              alt="">
+            <p class="card-title">Brazil</p>
+          </div>
+          <div class="card-content">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus molestiae dolorum doloribus, accusantium ratione
+              illo enim iure placeat est quas!</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col s12 center">
+        <a href="" class="btn btn-large waves-effect waves-light blue-grey darken-4 " target="_blank">
+          <i class="medium material-icons ">bookmark</i>Contact for booking</a>
+      </div>
+    </div>
+    </div>
+
+
+  </section>
+
+  <section class="section section-followon center teal white-text">
+    <div class="container">
+      <div class="row">
+        <div class="col s12">
+          <h4>Follow CRUIZER</h4>
+          <p>Follow us on social media for special offers</p>
+          <a href="https://www.facebook.com/" target="_blank" class="white-text">
+            <i class="fab fa-facebook fa-4x"></i>
+          </a>
+          <a href="https://twitter.com/Twitter?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" target="blank" class="white-text">
+            <i class="fab fa-twitter fa-4x"></i>
+          </a>
+          <a href="https://in.linkedin.com/" target="_blank" class="white-text">
+            <i class="fab fa-linkedin fa-4x"></i>
+          </a>
+          <a href="https://www.instagram.com/?hl=en" target="_blank" class="white-text">
+            <i class="fab fa-instagram fa-4x"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+
+
+  </section>
+
+  <section class="section sectioncontact grey-text">
+    <div class="container">
+      <div class="row">
+        <div class="col s12 m6">
+          <div class="card-panel">
+            <i class="large material-icons teal-text">email</i>
+            <h4>Contact for booking</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae autem iusto enim eum officia! Sunt rem odit
+              pariatur?
+            </p>
+          </div>
+
+        </div>
+        <div class="col s12 m6">
+          <div class="card-panel">
+            <i class="large material-icons teal-text">location_on</i>
+            <h4>Location</h4>
+            <p>#333 roger street Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident, corporis.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </section>
+
+  <footer class="section center teal white-text">
+    <p class="flow-text">CRUIZER &copy; 2018</p>
+  </footer>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js "></script>
+  <script>
+    //$(document).ready(function () {
+    // $('.button-collapse').sideNav();
+    //});
+    $(document).ready(function () {
+      $('.carousel').carousel({ fullWidth: true }).css('height', $(window).height());
+    });
+    $('.carousel.carousel-slider').carousel({
+      fullWidth: true
+    })
+    $('.autocomplete').autocomplete({
+      data: {
+        'Germany': null,
+        'Italy': null,
+        'France': null,
+        'India': null,
+        'UnitedStates': null,
+
+      }
+    });
+  </script>
+</body>
+
+</html>
